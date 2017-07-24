@@ -1,6 +1,9 @@
 # Variable-Byte-VarByte-Encoding
 Compress numerical data using variable byte encoding.
 
+### Test
+I test the algorithm with first 10000 documents from [ClueWeb09B dataset](https://lemurproject.org/clueweb09/).
+
 ### Speed
 *Decompress*: 10.28MB/s
 
