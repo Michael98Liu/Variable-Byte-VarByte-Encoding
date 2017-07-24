@@ -23,12 +23,10 @@ void VBEncode(unsigned int num, ofstream& ofile){
 		byte.flip(7);
 		num = (num - a) / 128;
 		b = byte.to_ulong();
-		cout << byte << endl;
 		result.push_back(b);
 	}
 	int a = num % 128;
 	bitset<8> byte(a);
-	cout << byte << endl;
 	b = byte.to_ulong();
 	result.push_back(b);
 	write(result, ofile);
