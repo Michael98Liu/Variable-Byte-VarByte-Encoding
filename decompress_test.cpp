@@ -43,7 +43,7 @@ void decomp_index(){
 	ofstream ofile;
 	index.open(INDEX);
 	info.open(INFO);
-	ofile.open("test_data");
+	ofile.open("test_uncomp");
 	string line;
 	string value;
 	vector<string> vec;
